@@ -15,9 +15,7 @@ class Database(object):
         """提交到数据库执行"""
         self.db.commit()
 
-    def close(self):
-        """关闭数据库"""
-        self.db.close()
+
 
 
 
